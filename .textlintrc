@@ -9,7 +9,9 @@
       }
     },
     "preset-ja-technical-writing": true,
-    "prh": true,
+    "prh": {
+      "rulePaths" :["prh.yml"]
+    },
     "spellcheck-tech-word": true,
     "no-double-negative-ja": true,
     "no-dropping-the-ra": true,
