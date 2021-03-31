@@ -15,7 +15,6 @@
     "no-dropping-the-ra": true,
     "no-doubled-joshi": {
         "min_interval": 1
-    },
-    "no-unmatched-pair": true
+    }
   }
 }
