@@ -1,5 +1,6 @@
 # Zenn Contents
 
+[![reviewdog](https://github.com/ysmtegsr/zenn-contents/actions/workflows/textlint.yaml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/textlint.yaml)
 ## Setup
 
 ```sh

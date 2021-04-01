@@ -1,21 +1,15 @@
 name: reviewdog
 on: [pull_request]
 jobs:
-  build:
-    name: textlint
+  textlint:
+    name: runner / textlint
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Setup node/npm
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-      - name: install dependencies
-        run: npm i
-      - name: text-github-pr-review
+      - uses: actions/checkout@v2
+      - name: textlint-github-pr-review
         uses: tsuyoshicho/action-textlint@v1
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
+          level: warning
           textlint_flags: "articles/**"
