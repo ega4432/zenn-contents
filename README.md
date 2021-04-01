@@ -4,17 +4,17 @@
 ## Setup
 
 ```sh
-yarn install
+npm run install
 ```
 
 ## Local development
 
 ```sh
 # Create a new article.
-yarn new
+npm run new
 
 # Open preview of articles on my browser.
-yarn preview
+npm run preview
 ```
 
 ## License
