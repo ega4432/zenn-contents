@@ -1,8 +1,10 @@
 {
   "name": "zenn-contents",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "github.com/ysmtegsr/zenn-contents",
+  "repository": {
+    "type": "git",
+    "url": "github.com/ysmtegsr/zenn-contents"
+  },
   "author": "ysmtegsr",
   "license": "MIT",
   "private": true,
