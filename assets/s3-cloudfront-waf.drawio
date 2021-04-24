@@ -1,0 +1,96 @@
+<mxfile>
+    <diagram id="gCr2mYiI05qbAUzIC3n3" name="ページ1">
+        <mxGraphModel dx="970" dy="679" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" value="" style="endArrow=classic;html=1;fillColor=#cce5ff;strokeColor=#CCE5FF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="230" y="183" as="sourcePoint"/>
+                        <mxPoint x="326" y="245" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="800" y="212" width="76.5" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="16" vertex="1">
+                    <mxGeometry width="76.5" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="S3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="16" vertex="1">
+                    <mxGeometry x="18.25" y="110" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="347" y="212" width="76.5" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" parent="18" vertex="1">
+                    <mxGeometry width="76.5" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="CloudFront" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="18" vertex="1">
+                    <mxGeometry x="18.25" y="110" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;fillColor=#cce5ff;strokeColor=#FFCCCC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="226" y="350" as="sourcePoint"/>
+                        <mxPoint x="326" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.waf;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="574" y="216" width="76.5" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="WAF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="592.25" y="322" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=classic;html=1;fillColor=#cce5ff;strokeColor=#CCE5FF;" parent="1" edge="1">
+                    <mxGeometry x="446" y="249" width="50" height="50" as="geometry">
+                        <mxPoint x="446" y="249" as="sourcePoint"/>
+                        <mxPoint x="546" y="249" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#FFCCCC;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="444" y="276.5" as="sourcePoint"/>
+                        <mxPoint x="541" y="276.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;fillColor=#cce5ff;strokeColor=#CCE5FF;" edge="1" parent="1">
+                    <mxGeometry x="673" y="248.75" width="50" height="50" as="geometry">
+                        <mxPoint x="673" y="248.75" as="sourcePoint"/>
+                        <mxPoint x="773" y="248.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFCCCC;fontSize=12;" edge="1" parent="1" source="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="603.1517900739398" y="444.42860630580367" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="カスタムエラーレスポンスで maintenance.html を表示" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="497" y="420" width="183" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font style=&quot;font-size: 12px ; line-height: 150%&quot;&gt;特定 IP は許可&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=NE;callStyle=line;fontSize=17;align=right;verticalAlign=top;strokeColor=#CCE5FF;horizontal=1;spacingBottom=4;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="721" y="130" width="136" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;font style=&quot;font-size: 12px&quot;&gt;403 エラー&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=SE;callStyle=line;fontSize=17;align=right;verticalAlign=bottom;strokeColor=#FFCCCC;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="485" y="301" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Yi-wYSGiPg2rxA8VJep-35" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="124" y="132" width="92.5" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.tenant_admin;fillColor=#CCE5FF;" parent="4Yi-wYSGiPg2rxA8VJep-35" vertex="1">
+                    <mxGeometry x="18.25" width="56" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="管理者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4Yi-wYSGiPg2rxA8VJep-35" vertex="1">
+                    <mxGeometry y="85" width="92.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Yi-wYSGiPg2rxA8VJep-36" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="127" y="317" width="92.5" height="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.intune.user_group;fillColor=#FFCCCC;" parent="4Yi-wYSGiPg2rxA8VJep-36" vertex="1">
+                    <mxGeometry x="11.75" width="69" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="一般ユーザ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4Yi-wYSGiPg2rxA8VJep-36" vertex="1">
+                    <mxGeometry y="72" width="92.5" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
