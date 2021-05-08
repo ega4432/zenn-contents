@@ -1,5 +1,12 @@
 name: reviewdog
-on: [pull_request]
+
+on:
+  pull_request:
+    paths:
+      - '/articles/**.md'
+      - '/books/**/**.md'
+      - '/books/**/**.yaml'
+
 jobs:
   textlint:
     name: runner / textlint
