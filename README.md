@@ -5,6 +5,9 @@
 [![Zenn-ysmtegsr-followers](https://zenn-badge.ganariya.vercel.app/ysmtegsr/followers)](https://zenn.dev/ysmtegsr)
 [![Zenn-ysmtegsr-articles](https://zenn-badge.ganariya.vercel.app/ysmtegsr/articles)](https://zenn.dev/ysmtegsr)
 [![Zenn-ysmtegsr-scraps](https://zenn-badge.ganariya.vercel.app/ysmtegsr/scraps)](https://zenn.dev/ysmtegsr)
+[![automatic release](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ysmtegsr/zenn-contents)
+![GitHub](https://img.shields.io/github/license/ysmtegsr/zenn-contents)
 
 ## Setup
 
