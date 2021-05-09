@@ -3,9 +3,9 @@ name: reviewdog
 on:
   pull_request:
     paths:
-      - '/articles/**.md'
-      - '/books/**/**.md'
-      - '/books/**/**.yaml'
+      - "articles/**.md"
+      - "books/**/**.md"
+      - "books/**/**.yaml"
 
 jobs:
   textlint:
