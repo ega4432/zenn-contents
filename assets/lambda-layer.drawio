@@ -1,0 +1,85 @@
+<mxfile>
+    <diagram id="11HtP22AIlWy4U43PumQ" name="ページ1">
+        <mxGraphModel dx="632" dy="440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="18" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="357.75" y="124" width="88" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="18">
+                    <mxGeometry x="10.25" width="67.5" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Lambda&amp;nbsp; 関数 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="18">
+                    <mxGeometry y="94" width="88" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="204" y="124" width="88" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="19">
+                    <mxGeometry x="10.25" width="67.5" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Lambda&amp;nbsp; 関数 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="19">
+                    <mxGeometry y="94" width="88" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="508" y="124" width="88" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="22">
+                    <mxGeometry x="10.25" width="67.5" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Lambda&amp;nbsp; 関数 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="22">
+                    <mxGeometry y="94" width="88" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="344.94" y="334" width="113.62" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="group" vertex="1" connectable="0" parent="27">
+                    <mxGeometry x="16.810000000000002" width="80" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="11">
+                    <mxGeometry y="27.492668621700883" width="79.17888563049854" height="47.50733137829913" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="group" vertex="1" connectable="0" parent="11">
+                    <mxGeometry width="80" height="61.803519061583586" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="10">
+                    <mxGeometry y="14.29618768328446" width="79.17888563049854" height="47.50733137829913" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="10">
+                    <mxGeometry width="79.17888563049854" height="47.50733137829913" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Lambda Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="27">
+                    <mxGeometry y="83" width="113.62" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=classic;html=1;strokeColor=#CCE5FF;strokeWidth=3;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="402" y="318" as="sourcePoint"/>
+                        <mxPoint x="402" y="254" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=classic;html=1;strokeColor=#CCE5FF;strokeWidth=3;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="402" y="290" as="sourcePoint"/>
+                        <mxPoint x="549" y="251" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="549" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;strokeColor=#CCE5FF;strokeWidth=3;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="402" y="290" as="sourcePoint"/>
+                        <mxPoint x="248" y="253" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="248" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="ライブラリ&lt;br&gt;カスタムランタイム&lt;br&gt;依存パッケージ&lt;br&gt;ect ..." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=90;size=16;position=0.49;base=14;horizontal=0;" vertex="1" parent="1">
+                    <mxGeometry x="525" y="327" width="95.62" height="213.63" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,10 +1,13 @@
 # Zenn Contents
 
 [![reviewdog](https://github.com/ysmtegsr/zenn-contents/actions/workflows/textlint.yaml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/textlint.yaml)
-[![Zenn-ysmtegsr-liked](https://zenn-badge.ganariya.vercel.app/ysmtegsr/liked)](https://zenn.dev/ysmtegsr)
-[![Zenn-ysmtegsr-followers](https://zenn-badge.ganariya.vercel.app/ysmtegsr/followers)](https://zenn.dev/ysmtegsr)
-[![Zenn-ysmtegsr-articles](https://zenn-badge.ganariya.vercel.app/ysmtegsr/articles)](https://zenn.dev/ysmtegsr)
-[![Zenn-ysmtegsr-scraps](https://zenn-badge.ganariya.vercel.app/ysmtegsr/scraps)](https://zenn.dev/ysmtegsr)
+[![automatic release](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ysmtegsr/zenn-contents)
+![GitHub](https://img.shields.io/github/license/ysmtegsr/zenn-contents)
+![](https://zenn.badge.nikaera.com/s/ysmtegsr/likes?style=plastic)
+![](https://zenn.badge.nikaera.com/s/ysmtegsr/articles?style=plastic)
+![](https://zenn.badge.nikaera.com/s/ysmtegsr/followers?style=plastic)
+![](https://zenn.badge.nikaera.com/s/ysmtegsr/scraps?style=plastic)
 
 ## Setup
 
@@ -23,7 +26,7 @@ Create a new markdown file and run the local server.
 yarn new
 
 # Open preview of articles on my browser.
-yarn preview
+yarn dev
 ```
 
 ## Review
