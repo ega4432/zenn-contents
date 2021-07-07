@@ -1,7 +1,7 @@
 # Zenn Contents
 
 [![reviewdog](https://github.com/ysmtegsr/zenn-contents/actions/workflows/textlint.yaml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/textlint.yaml)
-[![automatic release](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml)
+[![release](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ysmtegsr/zenn-contents)
 ![GitHub](https://img.shields.io/github/license/ysmtegsr/zenn-contents)
 ![](https://zenn.badge.nikaera.com/s/ysmtegsr/likes?style=plastic)
