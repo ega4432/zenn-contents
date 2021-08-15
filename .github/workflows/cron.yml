@@ -1,0 +1,28 @@
+name: Update latest articles
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup git config
+        run: |
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email '38056766+ysmtegsr@users.noreply.github.com'
+
+      - name: Execute code
+        run: php ./curl.php
+
+      - name: Commit and push
+        run: |
+          git commit -am 'Update README.md automatically'
+          git push

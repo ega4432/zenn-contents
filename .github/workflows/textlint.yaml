@@ -1,4 +1,4 @@
-name: reviewdog
+name: Textlint
 
 on:
   pull_request:
@@ -9,10 +9,12 @@ on:
 
 jobs:
   textlint:
-    name: runner / textlint
+    name: execute textlint
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
+
       - name: textlint-github-pr-review
         uses: tsuyoshicho/action-textlint@v1
         with:
