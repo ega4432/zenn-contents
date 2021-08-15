@@ -17,9 +17,12 @@ jobs:
       - name: Execute code
         run: php ./curl.php
 
+      - name: Setup git config
+        run: |
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email '38056766+ysmtegsr@users.noreply.github.com'
+
       - name: Commit and push
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '38056766+ysmtegsr@users.noreply.github.com'
-          git commit -am 'Update README.md automatically'
-          git push
+          git add README.md
+          git commit -m 'Update README.md automatically' && git push
