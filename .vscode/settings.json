@@ -3,6 +3,7 @@
         "Gmail",
         "Referer",
         "WORKDIR",
+        "allowlist",
         "booklog",
         "isbns",
         "mkdir",
