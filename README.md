@@ -10,6 +10,13 @@
 ![](https://zenn.badge.nikaera.com/s/ysmtegsr/followers?style=plastic)
 ![](https://zenn.badge.nikaera.com/s/ysmtegsr/scraps?style=plastic)
 
+
+## Latest articles
+
+<!-- Start latest articles -->
+
+<!-- End latest articles -->
+
 ## Setup
 
 Install dependencies.
