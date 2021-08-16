@@ -17,16 +17,14 @@ $articles = [];
 
 foreach (json_decode($res, true)['articles'] as $article) {
     $articles[] = [
-        'emoji'        => $article['emoji'],
-        'title'        => '[' . $article['title'] . '](' . $domain  . '/'. $username . '/articles/' . $article['slug'] . ')',
-        'title'        => '[' . $article['title'] . '](' . implode('/', [ $domain, $username, 'articles', $article['slug'] ]) . ')',
-        'liked_count'  => $article['liked_count'],
-        'topics'       => implode(' , ', array_map(fn($value): string => '`' . $value['display_name'] . '`', $article['topics'])),
-        'published_at' => date('Y-m-d H:i', strtotime($article['published_at'])),
+        'emoji' => $article['emoji'],
+        'title' => '[' . $article['title'] . '](' . implode('/', [ $domain, $username, 'articles', $article['slug'] ]) . ')',
+        'like'  => $article['liked_count'],
+        'date'  => date('Y-m-d H:i', strtotime($article['published_at'])),
     ];
 }
 
-$md = "\n| | Title | Liked Count | Topics | Date\n --- | --- | --- | --- | ---\n";
+$md = "\n :octocat: | Title | Like | Date\n :---: | :---: | :---:| :---:\n";
 
 foreach ($articles as $article) {
     $md .= implode(" | ", $article) . "\n";
@@ -36,7 +34,7 @@ file_put_contents(
     'README.md',
     preg_replace(
         '/<!-- Start latest articles -->.*<!-- End latest articles -->/s',
-        "<!-- Start latest articles -->\n${md}<!-- End latest articles -->",
+        "<!-- Start latest articles -->\n${md}\n<!-- End latest articles -->",
         file_get_contents('README.md')
     )
 );
