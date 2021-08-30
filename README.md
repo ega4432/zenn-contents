@@ -1,10 +1,10 @@
 # Zenn Contents
 
-[![Textlint](https://github.com/ysmtegsr/zenn-contents/actions/workflows/textlint.yaml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/textlint.yaml)
-[![Auto Release](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/release.yml)
-[![Update latest articles](https://github.com/ysmtegsr/zenn-contents/actions/workflows/cron.yml/badge.svg)](https://github.com/ysmtegsr/zenn-contents/actions/workflows/cron.yml)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ysmtegsr/zenn-contents)
-![GitHub](https://img.shields.io/github/license/ysmtegsr/zenn-contents)
+[![Textlint](https://github.com/ega4432/zenn-contents/actions/workflows/textlint.yaml/badge.svg)](https://github.com/ega4432/zenn-contents/actions/workflows/textlint.yaml)
+[![Auto Release](https://github.com/ega4432/zenn-contents/actions/workflows/release.yml/badge.svg)](https://github.com/ega4432/zenn-contents/actions/workflows/release.yml)
+[![Update latest articles](https://github.com/ega4432/zenn-contents/actions/workflows/cron.yml/badge.svg)](https://github.com/ega4432/zenn-contents/actions/workflows/cron.yml)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ega4432/zenn-contents)
+![GitHub](https://img.shields.io/github/license/ega4432/zenn-contents)
 ![](https://zenn.badge.nikaera.com/s/ysmtegsr/likes?style=plastic)
 ![](https://zenn.badge.nikaera.com/s/ysmtegsr/articles?style=plastic)
 ![](https://zenn.badge.nikaera.com/s/ysmtegsr/followers?style=plastic)
