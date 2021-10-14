@@ -26,4 +26,4 @@ jobs:
             git add README.md
             git commit --message 'Update README.md automatically'
             git push
-          end
+          fi
