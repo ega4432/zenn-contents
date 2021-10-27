@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "github.com/ysmtegsr/zenn-contents"
+    "url": "github.com/ega4432/zenn-contents"
   },
-  "author": "ysmtegsr",
+  "author": "ega4432",
   "license": "MIT",
   "private": true,
   "dependencies": {
