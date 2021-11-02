@@ -25,7 +25,7 @@
 🐕 | [エッジで軽量な処理を実行できる CloudFront Functions を Terraform で作ってみた](https://zenn.dev/ysmtegsr/articles/d4eb3e8493b7a5ccd427) | 7 | 2021-05-23 14:58
 🐥 | [S3 の静的 Web サイトホスティングで配信しているサイトを別サイトへリダイレクト](https://zenn.dev/ysmtegsr/articles/fe1171af89625a241aa2) | 7 | 2021-05-15 22:58
 😸 | [AWS SDK for PHP を使って Laravel で Amazon S3 の署名付き URL を取得する](https://zenn.dev/ysmtegsr/articles/b4511dba66ca1d33f627) | 4 | 2021-05-13 23:54
-📚 | [サーバーレス LAMP スタックとは何か](https://zenn.dev/ysmtegsr/articles/187f95cffb7f68f36ccf) | 4 | 2021-05-09 17:53
+📚 | [サーバーレス LAMP スタックとは何か](https://zenn.dev/ysmtegsr/articles/187f95cffb7f68f36ccf) | 5 | 2021-05-09 17:53
 🗂 | [Composer のアップグレードに学ぶ Dockerfile FROM 命令のタグ指定](https://zenn.dev/ysmtegsr/articles/640809c07d983ea911d6) | 4 | 2021-04-26 23:15
 
 <!-- End latest articles -->
