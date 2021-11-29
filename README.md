@@ -17,7 +17,7 @@
 
  :octocat: | Title | Like | Date
  :---: | :---: | :---:| :---:
-🙌 | [React アプリを Kubernetes で動かしてみた](https://zenn.dev/ysmtegsr/articles/258a2ac221a036e18d6b) | 3 | 2021-11-26 19:49
+🙌 | [React アプリを Kubernetes で動かしてみた](https://zenn.dev/ysmtegsr/articles/258a2ac221a036e18d6b) | 4 | 2021-11-26 19:49
 ⛳ | [AWS 認定 DVA 受験の振り返り](https://zenn.dev/ysmtegsr/articles/399f6514328ef19fd9df) | 4 | 2021-08-30 18:09
 💬 | [AWS 環境の SPA で動的 OGP を実現する](https://zenn.dev/ysmtegsr/articles/bc00386d731bb3ab70bc) | 28 | 2021-08-14 23:08
 🔖 | [AWS CLI を使って Web ACL を作成し CloudFront にアタッチする](https://zenn.dev/ysmtegsr/articles/0110fc69cb935c0726f2) | 2 | 2021-08-06 12:02
