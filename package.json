@@ -12,10 +12,10 @@
     "zenn-cli": "^0.1.79"
   },
   "scripts": {
-    "dev": "npx zenn preview --port 3333",
-    "new": "npx zenn new:article",
-    "new:book": "npx zenn new:book",
-    "lint": "npx textlint -f checkstyle \"articles/*.md\" >> .textlint.log"
+    "dev": "zenn preview --port 3333",
+    "new": "zenn new:article",
+    "new:book": "zenn new:book",
+    "lint": "textlint -f checkstyle \"articles/*.md\" >> .textlint.log"
   },
   "devDependencies": {
     "textlint": "^11.9.0",
