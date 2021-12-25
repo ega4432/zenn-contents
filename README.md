@@ -26,7 +26,7 @@
 🎉 | [Nuxt.js で静的ファイルの生成時に自動でサイトマップを生成する方法](https://zenn.dev/ysmtegsr/articles/f1cd20fb877dd8c8c154) | 4 | 2021-06-05 22:14
 🐕 | [エッジで軽量な処理を実行できる CloudFront Functions を Terraform で作ってみた](https://zenn.dev/ysmtegsr/articles/d4eb3e8493b7a5ccd427) | 7 | 2021-05-23 14:58
 🐥 | [S3 の静的 Web サイトホスティングで配信しているサイトを別サイトへリダイレクト](https://zenn.dev/ysmtegsr/articles/fe1171af89625a241aa2) | 7 | 2021-05-15 22:58
-😸 | [AWS SDK for PHP を使って Laravel で Amazon S3 の署名付き URL を取得する](https://zenn.dev/ysmtegsr/articles/b4511dba66ca1d33f627) | 5 | 2021-05-13 23:54
+😸 | [AWS SDK for PHP を使って Laravel で Amazon S3 の署名付き URL を取得する](https://zenn.dev/ysmtegsr/articles/b4511dba66ca1d33f627) | 6 | 2021-05-13 23:54
 
 <!-- End latest articles -->
 
