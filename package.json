@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "zenn-cli": "^0.1.79"
+    "zenn-cli": "^0.1.107"
   },
   "scripts": {
     "dev": "zenn preview --port 3333",
