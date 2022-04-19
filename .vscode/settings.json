@@ -7,6 +7,8 @@
         "booklog",
         "isbns",
         "mkdir",
-        "textlint"
+        "textlint",
+        "vercel"
     ]
 }
+
