@@ -22,7 +22,7 @@
 🕌 | [ラズパイに Go をインストールする](https://zenn.dev/ysmtegsr/articles/20d6e0c7159be2) | 4 | 2022-02-26 13:01
 😊 | [OpenShift Pipelines (Tekton Pipelines) でプライベートリポジトリをクローンする](https://zenn.dev/ysmtegsr/articles/f537c9144f1cd103a05b) | 4 | 2022-02-19 21:33
 🐦 | [TypeScript で作るシンプルな Chrome 拡張機能](https://zenn.dev/ysmtegsr/articles/4721c15c8f1a63ac39e5) | 16 | 2021-12-19 17:58
-🙌 | [React アプリを Kubernetes で動かしてみた](https://zenn.dev/ysmtegsr/articles/258a2ac221a036e18d6b) | 9 | 2021-11-26 19:49
+🙌 | [React アプリを Kubernetes で動かしてみた](https://zenn.dev/ysmtegsr/articles/258a2ac221a036e18d6b) | 10 | 2021-11-26 19:49
 ⛳ | [AWS 認定 DVA 受験の振り返り](https://zenn.dev/ysmtegsr/articles/399f6514328ef19fd9df) | 5 | 2021-08-30 18:09
 💬 | [AWS 環境の SPA で動的 OGP を実現する](https://zenn.dev/ysmtegsr/articles/bc00386d731bb3ab70bc) | 43 | 2021-08-14 23:08
 🔖 | [AWS CLI を使って Web ACL を作成し CloudFront にアタッチする](https://zenn.dev/ysmtegsr/articles/0110fc69cb935c0726f2) | 4 | 2021-08-06 12:02
